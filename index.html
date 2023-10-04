@@ -10,43 +10,230 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   </head>
 
   <body>
     <div id="app"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- clients -->
+    <div class="relative my-8 hidden w-full bg-c11 py-16 md:py-14 xl:py-16 1500px:pb-24">
+      <img src="/assets/half-dots.png" class="absolute left-4 top-4 w-16 xl:w-20 1500px:left-8 1500px:top-8 1500px:h-24 1500px:w-24 maxmd:hidden" alt="" />
+      <img src="/assets/half-dots.png" class="absolute bottom-4 right-4 w-16 xl:w-20 1500px:bottom-8 1500px:right-8 1500px:h-24 1500px:w-24 maxmd:hidden" alt="" />
+      <!-- content -->
+      <h3 class="text-center text-3xl font-bold leading-10 text-primary xs:text-4xl lg:leading-[60px] 1500px:text-[50px]">Hear from our happy customers</h3>
+      <div class="container relative">
+        <div class="client-carousel !pt-0 md:p-8">
+          <div class="mx-2 my-6 rounded-lg bg-white p-6 shadow-xl lg:my-12">
+            <div class="flex items-center gap-4">
+              <img class="h-[50px] !w-[50px]" src="/assets/client-1.png" alt="" />
+              <div>
+                <svg width="90" height="16" viewBox="0 0 90 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.595 6.252L8 1L6.405 6.252H1L5.373 9.652L3.75 15L8 11.695L12.25 15L10.627 9.652L15 6.252H9.595Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M27.8811 6.252L26.2861 1L24.6911 6.252H19.2861L23.6591 9.652L22.0361 15L26.2861 11.695L30.5361 15L28.9131 9.652L33.2861 6.252H27.8811Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M46.1663 6.252L44.5713 1L42.9763 6.252H37.5713L41.9443 9.652L40.3213 15L44.5713 11.695L48.8213 15L47.1983 9.652L51.5713 6.252H46.1663Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M64.4524 6.252L62.8574 1L61.2624 6.252H55.8574L60.2304 9.652L58.6074 15L62.8574 11.695L67.1074 15L65.4844 9.652L69.8574 6.252H64.4524Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M82.7376 6.252L81.1426 1L79.5476 6.252H74.1426L78.5156 9.652L76.8926 15L81.1426 11.695L85.3926 15L83.7696 9.652L88.1426 6.252H82.7376Z" fill="#FFD600" />
+                </svg>
+                <h2 class="text-base font-bold text-primary">Maranda Garcia</h2>
+              </div>
+            </div>
+            <p class="mt-6 text-base font-light leading-7">We needed to track a certain employee because the hours he turns in did not match anything resembling how long these jobs should take. Watched him sit in a parking lot for 4 hours today. By next week it will have paid for the yearly subscription.</p>
+          </div>
+          <div class="mx-2 my-6 rounded-lg bg-white p-6 shadow-xl lg:my-12">
+            <div class="flex items-center gap-4">
+              <img class="h-[50px] !w-[50px]" src="/assets/client-2.png" alt="" />
+              <div>
+                <svg width="90" height="16" viewBox="0 0 90 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.595 6.252L8 1L6.405 6.252H1L5.373 9.652L3.75 15L8 11.695L12.25 15L10.627 9.652L15 6.252H9.595Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M27.8811 6.252L26.2861 1L24.6911 6.252H19.2861L23.6591 9.652L22.0361 15L26.2861 11.695L30.5361 15L28.9131 9.652L33.2861 6.252H27.8811Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M46.1663 6.252L44.5713 1L42.9763 6.252H37.5713L41.9443 9.652L40.3213 15L44.5713 11.695L48.8213 15L47.1983 9.652L51.5713 6.252H46.1663Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M64.4524 6.252L62.8574 1L61.2624 6.252H55.8574L60.2304 9.652L58.6074 15L62.8574 11.695L67.1074 15L65.4844 9.652L69.8574 6.252H64.4524Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M82.7376 6.252L81.1426 1L79.5476 6.252H74.1426L78.5156 9.652L76.8926 15L81.1426 11.695L85.3926 15L83.7696 9.652L88.1426 6.252H82.7376Z" fill="#FFD600" />
+                </svg>
+                <h2 class="text-base font-bold text-primary">Bart Franklin</h2>
+              </div>
+            </div>
+            <p class="mt-6 text-base font-light leading-7">The nano is great, but the magnetic case makes it so much more versatile. I used it for my car, but then also was able to switch it to my boat when I rented my boat. most people don't do that probably, but I think it could track anything with metal to attach it to.</p>
+          </div>
+          <div class="mx-2 my-6 rounded-lg bg-white p-6 shadow-xl lg:my-12">
+            <div class="flex items-center gap-4">
+              <img class="h-[50px] !w-[50px]" src="/assets/client-3.png" alt="" />
+              <div>
+                <svg width="90" height="16" viewBox="0 0 90 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M9.595 6.252L8 1L6.405 6.252H1L5.373 9.652L3.75 15L8 11.695L12.25 15L10.627 9.652L15 6.252H9.595Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M27.8811 6.252L26.2861 1L24.6911 6.252H19.2861L23.6591 9.652L22.0361 15L26.2861 11.695L30.5361 15L28.9131 9.652L33.2861 6.252H27.8811Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M46.1663 6.252L44.5713 1L42.9763 6.252H37.5713L41.9443 9.652L40.3213 15L44.5713 11.695L48.8213 15L47.1983 9.652L51.5713 6.252H46.1663Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M64.4524 6.252L62.8574 1L61.2624 6.252H55.8574L60.2304 9.652L58.6074 15L62.8574 11.695L67.1074 15L65.4844 9.652L69.8574 6.252H64.4524Z" fill="#FFD600" />
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M82.7376 6.252L81.1426 1L79.5476 6.252H74.1426L78.5156 9.652L76.8926 15L81.1426 11.695L85.3926 15L83.7696 9.652L88.1426 6.252H82.7376Z" fill="#FFD600" />
+                </svg>
+                <h2 class="text-base font-bold text-primary">James</h2>
+              </div>
+            </div>
+            <p class="mt-6 text-base font-light leading-7">I installed this on my vehicle and it's so accurate. It gives me peace of mind you have when you want to track your first time new driver to ensure their whereabouts and safety. Highly recommend.</p>
+          </div>
+        </div>
+        <!-- btns -->
+        <div class="mx-auto my-auto w-full md:absolute md:bottom-1/2 maxmd:max-w-[255px]">
+          <button class="prev-slide md:-translate-x-6 maxmd:-translate-y-4">
+            <svg class="hidden w-8 md:block" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" transform="matrix(-1 0 0 1 40 0)" fill="#051831" />
+              <path d="M12.2929 19.2929C11.9024 19.6834 11.9024 20.3166 12.2929 20.7071L18.6569 27.0711C19.0474 27.4616 19.6805 27.4616 20.0711 27.0711C20.4616 26.6805 20.4616 26.0474 20.0711 25.6569L14.4142 20L20.0711 14.3431C20.4616 13.9526 20.4616 13.3195 20.0711 12.9289C19.6805 12.5384 19.0474 12.5384 18.6569 12.9289L12.2929 19.2929ZM28 19L13 19V21H28V19Z" fill="white" />
+            </svg>
+
+            <svg class="md:hidden" width="26" height="26" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="11" cy="11" r="11" transform="matrix(-1 0 0 1 22 0.319824)" fill="#051831" />
+              <path d="M12.3911 15.3714L8.64002 11.6314C8.59549 11.5868 8.56403 11.5386 8.54563 11.4867C8.52693 11.4347 8.51758 11.3791 8.51758 11.3197C8.51758 11.2603 8.52693 11.2047 8.54563 11.1527C8.56403 11.1008 8.59549 11.0526 8.64002 11.008L12.3911 7.25691C12.495 7.15302 12.6249 7.10107 12.7807 7.10107C12.9366 7.10107 13.0701 7.15673 13.1814 7.26804C13.2928 7.37935 13.3484 7.50921 13.3484 7.65762C13.3484 7.80603 13.2928 7.9359 13.1814 8.04721L9.90895 11.3197L13.1814 14.5922C13.2853 14.6961 13.3373 14.824 13.3373 14.976C13.3373 15.1283 13.2816 15.2601 13.1703 15.3714C13.059 15.4827 12.9291 15.5383 12.7807 15.5383C12.6323 15.5383 12.5025 15.4827 12.3911 15.3714Z" fill="white" />
+            </svg>
+          </button>
+          <button class="next-slide float-right md:translate-x-6 maxmd:-translate-y-4">
+            <svg class="md:hidden" width="26" height="26" viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="11" cy="11.3198" r="11" fill="#051831" />
+              <path d="M9.60885 15.3714L13.36 11.6314C13.4045 11.5868 13.436 11.5386 13.4544 11.4867C13.4731 11.4347 13.4824 11.3791 13.4824 11.3197C13.4824 11.2603 13.4731 11.2047 13.4544 11.1527C13.436 11.1008 13.4045 11.0526 13.36 11.008L9.60885 7.25691C9.50496 7.15302 9.3751 7.10107 9.21927 7.10107C9.06343 7.10107 8.92986 7.15673 8.81855 7.26804C8.70724 7.37935 8.65159 7.50921 8.65159 7.65762C8.65159 7.80603 8.70724 7.9359 8.81855 8.04721L12.0911 11.3197L8.81855 14.5922C8.71466 14.6961 8.66272 14.824 8.66272 14.976C8.66272 15.1283 8.71837 15.2601 8.82968 15.3714C8.94099 15.4827 9.07086 15.5383 9.21927 15.5383C9.36768 15.5383 9.49754 15.4827 9.60885 15.3714Z" fill="white" />
+            </svg>
+            <svg class="hidden w-8 md:block" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="#051831" />
+              <path d="M27.7071 19.2929C28.0976 19.6834 28.0976 20.3166 27.7071 20.7071L21.3431 27.0711C20.9526 27.4616 20.3195 27.4616 19.9289 27.0711C19.5384 26.6805 19.5384 26.0474 19.9289 25.6569L25.5858 20L19.9289 14.3431C19.5384 13.9526 19.5384 13.3195 19.9289 12.9289C20.3195 12.5384 20.9526 12.5384 21.3431 12.9289L27.7071 19.2929ZM12 19L27 19V21H12V19Z" fill="white" />
+            </svg>
+          </button>
+        </div>
+        <!-- GET MINE NOW  -->
+        <div class="mt-4 h-fit w-full text-center md:mt-6 lg:mt-8">
+          <button type="button" class="h-14 w-full max-w-[375px] rounded-xl bg-c3 font-RedHatDisplay text-2xl font-bold text-white hover:bg-c3/90">GET MINE NOW</button>
+          <div class="mt-2.5 flex items-center justify-center gap-2">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.99975 11.5667C8.5999 11.5667 9.08642 11.0802 9.08642 10.48C9.08642 9.87986 8.5999 9.39334 7.99975 9.39334C7.3996 9.39334 6.91309 9.87986 6.91309 10.48C6.91309 11.0802 7.3996 11.5667 7.99975 11.5667Z" fill="white" />
+              <path d="M12.1863 6.35333V5.51999C12.1863 3.71999 11.753 1.33333 7.99967 1.33333C4.24634 1.33333 3.81301 3.71999 3.81301 5.51999V6.35333C1.94634 6.58666 1.33301 7.53333 1.33301 9.85999V11.1C1.33301 13.8333 2.16634 14.6667 4.89967 14.6667H11.0997C13.833 14.6667 14.6663 13.8333 14.6663 11.1V9.85999C14.6663 7.53333 14.053 6.58666 12.1863 6.35333ZM7.99967 12.4933C6.88634 12.4933 5.98634 11.5867 5.98634 10.48C5.98634 9.36666 6.89301 8.46666 7.99967 8.46666C9.10634 8.46666 10.013 9.37333 10.013 10.48C10.013 11.5933 9.11301 12.4933 7.99967 12.4933ZM4.89967 6.29333C4.84634 6.29333 4.79967 6.29333 4.74634 6.29333V5.51999C4.74634 3.56666 5.29967 2.26666 7.99967 2.26666C10.6997 2.26666 11.253 3.56666 11.253 5.51999V6.29999C11.1997 6.29999 11.153 6.29999 11.0997 6.29999H4.89967V6.29333Z" fill="white" />
+            </svg>
+            <b class="font-RedHatDisplay text-sm font-medium text-primary">Safe & Secure Checkout</b>
+            <!-- visa -->
+            <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_2473)">
+                <path opacity="0.07" d="M35 0H3C1.3 0 0 1.3 0 3V21C0 22.7 1.4 24 3 24H35C36.7 24 38 22.7 38 21V3C38 1.3 36.6 0 35 0Z" fill="#051831" />
+                <path d="M35 1C36.1 1 37 1.9 37 3V21C37 22.1 36.1 23 35 23H3C1.9 23 1 22.1 1 21V3C1 1.9 1.9 1 3 1H35Z" fill="white" />
+                <path d="M28.3 10.1H28C27.6 11.1 27.3 11.6 27 13.1H28.9C28.6 11.6 28.6 10.9 28.3 10.1ZM31.2 16H29.5C29.4 16 29.4 16 29.3 15.9L29.1 15L29 14.8H26.6C26.5 14.8 26.4 14.8 26.4 15L26.1 15.9C26.1 16 26 16 26 16H23.9L24.1 15.5L27 8.7C27 8.2 27.3 8 27.8 8H29.3C29.4 8 29.5 8 29.5 8.2L30.9 14.7C31 15.1 31.1 15.4 31.1 15.8C31.2 15.9 31.2 15.9 31.2 16ZM17.8 15.7L18.2 13.9C18.3 13.9 18.4 14 18.4 14C19.1 14.3 19.8 14.5 20.5 14.4C20.7 14.4 21 14.3 21.2 14.2C21.7 14 21.7 13.5 21.3 13.1C21.1 12.9 20.8 12.8 20.5 12.6C20.1 12.4 19.7 12.2 19.4 11.9C18.2 10.9 18.6 9.5 19.3 8.8C19.9 8.4 20.2 8 21 8C22.2 8 23.5 8 24.1 8.2H24.2C24.1 8.8 24 9.3 23.8 9.9C23.3 9.7 22.8 9.5 22.3 9.5C22 9.5 21.7 9.5 21.4 9.6C21.2 9.6 21.1 9.7 21 9.8C20.8 10 20.8 10.3 21 10.5L21.5 10.9C21.9 11.1 22.3 11.3 22.6 11.5C23.1 11.8 23.6 12.3 23.7 12.9C23.9 13.8 23.6 14.6 22.8 15.2C22.3 15.6 22.1 15.8 21.4 15.8C20 15.8 18.9 15.9 18 15.6C17.9 15.8 17.9 15.8 17.8 15.7ZM14.3 16C14.4 15.3 14.4 15.3 14.5 15C15 12.8 15.5 10.5 15.9 8.3C16 8.1 16 8 16.2 8H18C17.8 9.2 17.6 10.1 17.3 11.2C17 12.7 16.7 14.2 16.3 15.7C16.3 15.9 16.2 15.9 16 15.9M5 8.2C5 8.1 5.2 8 5.3 8H8.7C9.2 8 9.6 8.3 9.7 8.8L10.6 13.2C10.6 13.3 10.6 13.3 10.7 13.4C10.7 13.3 10.8 13.3 10.8 13.3L12.9 8.2C12.8 8.1 12.9 8 13 8H15.1C15.1 8.1 15.1 8.1 15 8.2L11.9 15.5C11.8 15.7 11.8 15.8 11.7 15.9C11.6 16 11.4 15.9 11.2 15.9H9.7C9.6 15.9 9.5 15.9 9.5 15.7L7.9 9.5C7.7 9.3 7.4 9 7 8.9C6.4 8.6 5.3 8.4 5.1 8.4L5 8.2Z" fill="#051831" />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_2473">
+                  <rect width="38" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <!-- master card -->
+            <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_2478)">
+                <path opacity="0.07" d="M35 0H3C1.3 0 0 1.3 0 3V21C0 22.7 1.4 24 3 24H35C36.7 24 38 22.7 38 21V3C38 1.3 36.6 0 35 0Z" fill="#051831" />
+                <path d="M35 1C36.1 1 37 1.9 37 3V21C37 22.1 36.1 23 35 23H3C1.9 23 1 22.1 1 21V3C1 1.9 1.9 1 3 1H35Z" fill="white" />
+                <path d="M15 19C18.866 19 22 15.866 22 12C22 8.13401 18.866 5 15 5C11.134 5 8 8.13401 8 12C8 15.866 11.134 19 15 19Z" fill="#EB001B" />
+                <path d="M23 19C26.866 19 30 15.866 30 12C30 8.13401 26.866 5 23 5C19.134 5 16 8.13401 16 12C16 15.866 19.134 19 23 19Z" fill="#F79E1B" />
+                <path d="M22 12C22 9.6 20.8 7.5 19 6.3C17.2 7.6 16 9.7 16 12C16 14.3 17.2 16.5 19 17.7C20.8 16.5 22 14.4 22 12Z" fill="#FF5F00" />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_2478">
+                  <rect width="38" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <!-- discover -->
+            <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_2485)">
+                <path opacity="0.07" d="M35 0H3C1.3 0 0 1.3 0 3V21C0 22.7 1.4 24 3 24H35C36.7 24 38 22.7 38 21V3C38 1.3 36.6 0 35 0Z" fill="#051831" />
+                <path d="M35 1C36.1 1 37 1.9 37 3V21C37 22.1 36.1 23 35 23H3C1.9 23 1 22.1 1 21V3C1 1.9 1.9 1 3 1H35Z" fill="white" />
+                <path d="M3.57 7.15999H2V12.66H3.57C4.4 12.66 5 12.46 5.53 12.03C6.16 11.51 6.53 10.73 6.53 9.91999C6.52 8.28999 5.31 7.15999 3.57 7.15999ZM4.83 11.3C4.49 11.6 4.06 11.74 3.36 11.74H3.07V8.09999H3.36C4.05 8.09999 4.47 8.21999 4.83 8.53999C5.2 8.86999 5.42 9.37999 5.42 9.90999C5.42 10.44 5.2 10.97 4.83 11.3ZM7.02 7.15999H8.09V12.66H7.02V7.15999ZM10.71 9.26999C10.07 9.02999 9.88 8.86999 9.88 8.57999C9.88 8.22999 10.22 7.96999 10.68 7.96999C11 7.96999 11.27 8.09999 11.54 8.41999L12.1 7.68999C11.64 7.28999 11.09 7.07999 10.48 7.07999C9.51 7.07999 8.76 7.75999 8.76 8.65999C8.76 9.41999 9.11 9.80999 10.11 10.17C10.53 10.32 10.74 10.42 10.85 10.48C11.06 10.62 11.17 10.82 11.17 11.05C11.17 11.5 10.82 11.83 10.34 11.83C9.83 11.83 9.42 11.57 9.17 11.1L8.48 11.77C8.97 12.5 9.57 12.82 10.38 12.82C11.49 12.82 12.28 12.08 12.28 11.01C12.3 10.12 11.93 9.71999 10.71 9.26999ZM12.63 9.91999C12.63 11.54 13.9 12.79 15.53 12.79C15.99 12.79 16.39 12.7 16.87 12.47V11.21C16.44 11.64 16.06 11.81 15.58 11.81C14.5 11.81 13.73 11.03 13.73 9.90999C13.73 8.84999 14.52 8.01999 15.53 8.01999C16.04 8.01999 16.43 8.19999 16.87 8.63999V7.37999C16.4 7.13999 16.01 7.03999 15.55 7.03999C13.94 7.03999 12.63 8.31999 12.63 9.91999ZM25.39 10.86L23.92 7.15999H22.75L25.08 12.8H25.66L28.03 7.15999H26.87L25.39 10.86ZM28.52 12.66H31.56V11.73H29.59V10.25H31.49V9.31999H29.59V8.09999H31.56V7.15999H28.52V12.66ZM35.81 8.78999C35.81 7.75999 35.1 7.16999 33.86 7.16999H32.27V12.67H33.34V10.46H33.48L34.96 12.67H36.28L34.55 10.35C35.36 10.18 35.81 9.62999 35.81 8.78999ZM33.65 9.69999H33.34V8.02999H33.67C34.34 8.02999 34.7 8.30999 34.7 8.84999C34.7 9.39999 34.34 9.69999 33.65 9.69999Z" fill="#231F20" />
+                <path d="M20.1595 12.86C20.9369 12.86 21.6824 12.5512 22.232 12.0015C22.7817 11.4518 23.0905 10.7063 23.0905 9.92899C23.0905 9.15164 22.7817 8.40612 22.232 7.85646C21.6824 7.30679 20.9369 6.99799 20.1595 6.99799C19.3822 6.99799 18.6367 7.30679 18.087 7.85646C17.5373 8.40612 17.2285 9.15164 17.2285 9.92899C17.2285 10.7063 17.5373 11.4518 18.087 12.0015C18.6367 12.5512 19.3822 12.86 20.1595 12.86Z" fill="url(#paint0_linear_1_2485)" />
+                <path opacity="0.65" d="M20.1595 12.86C20.9369 12.86 21.6824 12.5512 22.232 12.0015C22.7817 11.4518 23.0905 10.7063 23.0905 9.92899C23.0905 9.15164 22.7817 8.40612 22.232 7.85646C21.6824 7.30679 20.9369 6.99799 20.1595 6.99799C19.3822 6.99799 18.6367 7.30679 18.087 7.85646C17.5373 8.40612 17.2285 9.15164 17.2285 9.92899C17.2285 10.7063 17.5373 11.4518 18.087 12.0015C18.6367 12.5512 19.3822 12.86 20.1595 12.86Z" fill="url(#paint1_linear_1_2485)" />
+                <path d="M36.5705 7.50602C36.5705 7.40602 36.5005 7.35602 36.3905 7.35602H36.2305V7.83602H36.3505V7.64602L36.4905 7.83602H36.6305L36.4705 7.63602C36.5305 7.62602 36.5705 7.57602 36.5705 7.50602ZM36.3705 7.57602H36.3505V7.44602H36.3705C36.4305 7.44602 36.4605 7.46602 36.4605 7.50602C36.4605 7.55602 36.4305 7.57602 36.3705 7.57602Z" fill="#231F20" />
+                <path d="M36.4102 7.17599C36.1802 7.17599 35.9902 7.36599 35.9902 7.59599C35.9902 7.82599 36.1802 8.01599 36.4102 8.01599C36.6402 8.01599 36.8302 7.82599 36.8302 7.59599C36.8302 7.36599 36.6402 7.17599 36.4102 7.17599ZM36.4102 7.94599C36.2302 7.94599 36.0702 7.79599 36.0702 7.59599C36.0702 7.40599 36.2202 7.24599 36.4102 7.24599C36.5902 7.24599 36.7402 7.40599 36.7402 7.59599C36.7402 7.78599 36.5902 7.94599 36.4102 7.94599Z" fill="#231F20" />
+                <path d="M37.0006 12.984C37.0006 12.984 27.0906 19.873 8.97656 23H34.9996C35.5272 23 36.0335 22.7915 36.4081 22.4199C36.7828 22.0483 36.9953 21.5437 36.9996 21.016L37.0236 17.996L37.0006 12.985V12.984Z" fill="#F48120" />
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear_1_2485" x1="21.6565" y1="12.275" x2="19.6315" y2="9.10399" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#F89F20" />
+                  <stop offset="0.25" stop-color="#F79A20" />
+                  <stop offset="0.533" stop-color="#F68D20" />
+                  <stop offset="0.62" stop-color="#F58720" />
+                  <stop offset="0.723" stop-color="#F48120" />
+                  <stop offset="1" stop-color="#F37521" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_1_2485" x1="21.3375" y1="12.232" x2="18.3775" y2="6.44599" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#F58720" />
+                  <stop offset="0.359" stop-color="#E16F27" />
+                  <stop offset="0.703" stop-color="#D4602C" />
+                  <stop offset="0.982" stop-color="#D05B2E" />
+                </linearGradient>
+                <clipPath id="clip0_1_2485">
+                  <rect width="38" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <!-- amex -->
+            <svg width="38" height="24" viewBox="0 0 38 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_2495)">
+                <path opacity="0.07" d="M35 0H3C1.3 0 0 1.3 0 3V21C0 22.7 1.4 24 3 24H35C36.7 24 38 22.7 38 21V3C38 1.3 36.6 0 35 0Z" fill="#051831" />
+                <path d="M35 1C36.1 1 37 1.9 37 3V21C37 22.1 36.1 23 35 23H3C1.9 23 1 22.1 1 21V3C1 1.9 1.9 1 3 1H35Z" fill="#006FCF" />
+                <path d="M8.971 10.268L9.745 12.144H8.203L8.971 10.268ZM25.046 10.346H22.069V11.173H24.998V12.412H22.075V13.334H25.052V14.073L27.129 11.828L25.052 9.488L25.046 10.346ZM10.983 8.006H14.978L15.865 9.941L16.687 8H27.057L28.135 9.19L29.25 8H34.013L30.494 11.852L33.977 15.68H29.143L28.065 14.49L26.94 15.68H10.03L9.536 14.49H8.406L7.911 15.68H4L7.286 8H10.716L10.983 8.006ZM19.646 9.084H17.407L15.907 12.62L14.282 9.084H12.06V13.894L10 9.084H8.007L5.625 14.596H7.18L7.674 13.406H10.27L10.764 14.596H13.484V10.661L15.235 14.602H16.425L18.165 10.673V14.603H19.623L19.647 9.083L19.646 9.084ZM28.986 11.852L31.517 9.084H29.695L28.094 10.81L26.546 9.084H20.652V14.602H26.462L28.076 12.864L29.624 14.602H31.499L28.987 11.852H28.986Z" fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_2495">
+                  <rect width="38" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========== -->
     <script type="module" src="/src/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
-      $('.owl-one').owlCarousel({
-        loop: true,
-        autoplayTimeout: 5000,
-        autoplay: false,
-        dots: true,
-        navigation: true,
-        nav: true,
-        //   // autoplayHoverPause: true,
-        //   navText: [
-        //     `<svg xmlns="http://www.w3.org/2000/svg" class="prev-icon" viewBox="0 0 14 14" fill="none">
-        //   <path d="M5.36319 2.90827L9.4541 6.99918L5.36319 11.0901" stroke="#E10600" stroke-linecap="round" stroke-linejoin="round"/>
-        // </svg>`,
-        //     `<svg xmlns="http://www.w3.org/2000/svg" class="next-icon" viewBox="0 0 14 14" fill="none">
-        //    <path d="M5.36319 2.90827L9.4541 6.99918L5.36319 11.0901" stroke="#E10600" stroke-linecap="round" stroke-linejoin="round"/>
-        //  </svg>`,
-        //   ],
-        //   responsive: {
-        //     0: {
-        //       items: 1,
-        //     },
-        //     992: {
-        //       items: 2,
-        //     },
-        //     1200: {
-        //       items: 3,
-        //     },
-        //   },
+      $(document).ready(function () {
+        $('.next-slide').click(function () {
+          $('.client-carousel').slick('slickNext');
+        });
+        $('.prev-slide').click(function () {
+          $('.client-carousel').slick('slickPrev');
+        });
+        $('.client-carousel').slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: true,
+          responsive: [
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode: true,
+              },
+            },
+            {
+              breakpoint: 1500,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                centerMode: true,
+              },
+            },
+            {
+              breakpoint: 14400,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                centerMode: false,
+              },
+            },
+          ],
+        });
       });
     </script>
   </body>
