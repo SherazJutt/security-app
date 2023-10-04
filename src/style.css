@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #5b6770;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #051831;
+  box-shadow: 0 -100vh 0 100vh #051831;
+}
+
+::-moz-selection {
+  background: #fdbf57;
+}
+
+::selection {
+  background: #fdbf57;
+}
+@layer components {
+  .container {
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.sec-2-car-item {
+  @apply flex w-full items-center justify-center gap-7 border-r bg-primary py-3 text-sm font-light text-white xl:text-base;
+}
+
+@media screen and (min-width: 576px) {
+  .pom-cards .card {
+    display: grid;
+    grid-template-columns: 201px 1fr;
+    grid-auto-flow: dense;
+    gap: 16px;
+    max-width: 780px;
+  }
+  .pom-cards .card:nth-child(even) {
+    grid-template-columns: 1fr 201px;
+    margin-left: auto;
+  }
+  .pom-cards .card:nth-child(even) img {
+    order: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pom-cards .card {
+    grid-template-columns: 325px 1fr;
+  }
+  .pom-cards .card:nth-child(even) {
+    grid-template-columns: 1fr 325px;
+  }
+  .pom-cards .card {
+    gap: 24px;
+  }
+}
